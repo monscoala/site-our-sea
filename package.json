@@ -1,0 +1,21 @@
+{
+  "name": "our-sea",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/monscoala/site-our-sea.git",
+  "author": "Coala <monsieurcoala22@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "publish": "webpack --mode=production"
+  }
+}
